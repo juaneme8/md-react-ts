@@ -14,3 +14,26 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+form{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width: 350px;
+  margin: 20px auto;
+}
+
+textarea{
+  resize:none;
+  font-family: Roboto;
+}
+
+img{
+  border-radius:50%;
+  height: 100px;
+}
+
+ul li{
+list-style:none;
+}
