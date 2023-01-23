@@ -41,7 +41,7 @@ const Home: NextPage = () => {
       <ul>
         {subs.map(sub => (
           <li key={sub.nick}>
-            <img src={sub.avatar} alt={sub.nick} />
+            <Image width={200} height={200} src={sub.avatar} alt={sub.nick} />
             <h4>{sub.subMonths} months with us</h4>
             <p>{sub.description?.substring(0, 20)}...</p>
           </li>
